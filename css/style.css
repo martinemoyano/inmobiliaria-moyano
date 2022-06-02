@@ -171,7 +171,7 @@ nav ul li a {
 }
 
 .descripcion-propiedades {
-    background-color: aquamarine;
+   
     font-family: arial;
     size: 15px;
     padding: 1%;
@@ -504,13 +504,21 @@ nav ul li a {
         
     }
 
+    .menu a:hover {
+        display: flex;
+        color: rgb(4, 30, 30);
+        font-size: 10px;
+        font-family: arial;
+        font-weight: bold;
+    }
+
     .seccion {
         color: blue;
         font-size: 10px;
         font-family: arial;
         font-weight: bold;
         border-width: 4px;
-        background-color: bisque;
+       
         justify-content: space-evenly;
         padding: 5px;
         text-align: center;
