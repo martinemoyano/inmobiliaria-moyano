@@ -129,9 +129,8 @@ nav ul li a {
 .seccion-1 {
 
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 50% 50%;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: deepskyblue;
     grid-gap: 5px 5px;
 
    }
@@ -139,13 +138,9 @@ nav ul li a {
     width: 100%;
     height: 100%;
     object-fit: cover;
-}
-
-
-
-.seccion-1 div {
     border: 1px solid black;
 }
+
 
 .seccion-1 img:hover {
     transform: scale(1.3);
@@ -157,7 +152,7 @@ nav ul li a {
     grid-gap: 5px 5px;
 }
 
-.seccion-2 div:hover {
+.seccion-2 img:hover {
     border: 1px solid black;
     transform: scale(1.8);
 }
@@ -168,8 +163,10 @@ nav ul li a {
     grid-column-gap: 5px;
 }
 
-.fotos-propiedades div {
-    border: 1px solid black;
+.fotos-propiedades img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .descripcion-propiedades {
