@@ -5,7 +5,7 @@
 }
 
 .header {
-    min-height: 10vh;
+    height: 5vh;
     width: 100%;
    background-color:#F1E2F3;
     display: inline-flex;
@@ -119,7 +119,7 @@ nav ul li a {
 .grids {
     grid-gap: 5px 5px;
     display: grid;
-    height: 98%;
+    height: 100%;
     width: 70%;
     grid-template-rows: 70% 30%;
     background-color: antiquewhite;
@@ -139,6 +139,7 @@ nav ul li a {
     height: 100%;
     object-fit: cover;
     border: 1px solid black;
+    
 }
 
 
@@ -155,11 +156,13 @@ nav ul li a {
 .seccion-2 img:hover {
     border: 1px solid black;
     transform: scale(1.8);
+
 }
 
 .fotos-propiedades {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
     grid-column-gap: 5px;
 }
 
@@ -168,6 +171,7 @@ nav ul li a {
     height: 100%;
     object-fit: cover;
 }
+
 
 .descripcion-propiedades {
    
